@@ -187,9 +187,9 @@
     <!-- IMAGES -->
     <h2>Visual Guides</h2>
     <div class="image-row">
-      <img src="test.jpg" alt="Saving Tips">
-      <img src="investagewise.jpg" alt="Invest at a Young Age">
-      <img src="Atomichabits.jpg" alt="Atomic Habits Book">
+      <img src="https://pin.it/1vQ4arLbh" alt="Saving Tips">
+      <img src="https://pin.it/2WLXvqwaS" alt="Invest at a Young Age"> <br><br>
+      <img src="https://pin.it/7DU3DzKyZ" alt="Atomic Habits Book">
     </div>
 
     <!-- VIDEO -->
