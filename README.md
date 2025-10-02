@@ -185,17 +185,19 @@
     </ul>
 
    <!-- IMAGES -->
+ <!-- IMAGES -->
 <h2>Visual Guides</h2>
 <div class="image-row">
   <img src="https://github.com/user-attachments/assets/07695a73-d847-4784-8ddf-01247b7eaf2d" 
-       alt="Saving Tips" width="540" height="540">
+       alt="Saving Tips" width="300">
        
   <img src="https://github.com/user-attachments/assets/6bd87e3f-ea82-4a7b-8ec3-98a7b5395608" 
-       alt="Invest at a Young Age" width="735" height="1700">
+       alt="Invest at a Young Age" width="300">
        
   <img src="https://github.com/user-attachments/assets/9d605f05-546c-476b-9248-bd955a6f962e" 
-       alt="Atomic Habits Book" width="1280" height="720">
+       alt="Atomic Habits Book" width="300">
 </div>
+
 
 
     <!-- VIDEO -->
