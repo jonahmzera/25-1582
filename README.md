@@ -14,14 +14,14 @@
       padding: 0;
     }
 
-    .site-header {
+   .site-header {
       background-color: #003366; /* Darker blue */
       color: white;
       padding: 25px 0;
       text-align: center;
     }
 
-    .site-header h1 {
+   .site-header h1 {
       margin: 0;
       font-size: 2.5rem;
       font weight: bold;
@@ -29,7 +29,7 @@
       text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     }
 
-    .site-header p {
+   .site-header p {
       margin: 5px 0 0;
       font-size: 1rem;
       font-style: italic;
@@ -37,39 +37,39 @@
       text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
     }
 
-    nav {
+   nav {
       background-color: #004080;
       display: flex;
       justify-content: center;
       padding: 12px 0;
     }
 
-    nav a {
+   nav a {
       margin: 0 18px;
       color: white;
       text-decoration: none;
       font-weight: bold;
     }
 
-    nav a:hover {
+  nav a:hover {
       text-decoration: underline;
     }
 
-    main {
+  main {
       padding: 30px;
       text-align: center;
     }
 
-    h1, h2 {
+  h1, h2 {
       color: #004080;
     }
 
-    p {
+  p {
       font-size: 18px;
       line-height: 1.5;
     }
 
-    ul {
+   ul {
       list-style-type: square;
       text-align: left;
       display: inline-block;
@@ -77,32 +77,32 @@
       font-size: 18px;
     }
 
-    .image-row {
+   .image-row {
       display: flex;
       justify-content: center;
       gap: 20px;
       margin: 20px 0;
     }
 
-    .image-row img {
+  .image-row img {
       width: 250px;
       border-radius: 8px;
       box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     }
 
-    iframe {
+  iframe {
       margin: 20px 0;
       border-radius: 8px;
       box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
     }
 
-    section {
+   section {
       background-color: #eef6ff;
       padding: 30px;
       text-align: center;
     }
 
-    table {
+  table {
       border: 2px solid #004080;
       border-collapse: collapse;
       width: 80%;
@@ -112,26 +112,26 @@
       box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     }
 
-    th {
+   th {
       background-color: #004080;
       color: white;
       padding: 12px;
     }
 
-    td {
+   td {
       border: 1px solid #ccc;
       padding: 10px;
     }
 
-    tr:nth-child(even) {
+   tr:nth-child(even) {
       background-color: #e6f2ff;
     }
 
-    tr:nth-child(odd) {
+   tr:nth-child(odd) {
       background-color: #ffffff;
     }
 
-    caption {
+  caption {
       caption-side: top;
       font-size: 20px;
       font-weight: bold;
@@ -139,7 +139,7 @@
       color: #004080;
     }
 
-    footer {
+  footer {
       background-color: #004080;
       color: white;
       text-align: center;
@@ -174,8 +174,8 @@
       The earlier you start, the more powerful compounding becomes.
     </p>
 
-    <!-- SERVICES LIST --
-    <h2>Our Services</h2>
+     <!-- SERVICES LIST -->
+ <h2>Our Services</h2>
     <ul>
       <li>Simple Saving Strategies</li>
       <li>Beginner Investment Guides</li>
@@ -187,26 +187,18 @@
   <!-- IMAGES -->
 <h2>Visual Guides</h2>
 <div class="image-row">
-  <img src="<img width="736" height="1104" alt="image" src="https://github.com/user-attachments/assets/61adbab4-c796-47ca-898b-f11632aead2a" />
-" />
-" 
+  <img src="https://github.com/user-attachments/assets/61adbab4-c796-47ca-898b-f11632aead2a" 
        alt="Where it begins">
-       
-  <img src="<img width="1080" height="1920" alt="image" src="https://github.com/user-attachments/assets/3f932f6d-e56f-4fa1-83d0-b22390c032ae" />
-" 
+
+  <img src="https://github.com/user-attachments/assets/3f932f6d-e56f-4fa1-83d0-b22390c032ae" 
        alt="Invest at a Young Age">
-       
-  <img src="<img width="1080" height="1346" alt="image" src="https://github.com/user-attachments/assets/7cd0278f-d751-4586-85a6-3305471d2d57" />
-" 
+
+  <img src="https://github.com/user-attachments/assets/7cd0278f-d751-4586-85a6-3305471d2d57" 
        alt="What do you want your future to have">
 </div>
 
- 
-
-
-
-    <!-- VIDEO -->
-    <h2>Watch & Learn</h2>
+<!-- VIDEO -->
+<h2>Watch & Learn</h2>
     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/-C_5hzJCHaY"
       title="YouTube video player"
