@@ -1,6 +1,241 @@
-<title>Songs</title>
-<h1>type</h1>
-<p> RnB</p>
-Hip Hop
-Christian rap
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Young Investor Advice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .site-header {
+      background-color: #003366; /* Darker blue */
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+    }
+
+    .site-header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font weight: bold;
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+
+    .site-header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+      font-style: italic;
+      color: #f0f0f0;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    nav {
+      background-color: #004080;
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+    }
+
+    nav a {
+      margin: 0 18px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: #004080;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style-type: square;
+      text-align: left;
+      display: inline-block;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .image-row img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
+    iframe {
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    }
+
+    section {
+      background-color: #eef6ff;
+      padding: 30px;
+      text-align: center;
+    }
+
+    table {
+      border: 2px solid #004080;
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+      font-size: 16px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
+    th {
+      background-color: #004080;
+      color: white;
+      padding: 12px;
+    }
+
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #e6f2ff;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px;
+      color: #004080;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <h1>Young Investor Advice</h1>
+    <p>Helping You Save, Invest & Grow Wealth Early</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <h2>Welcome</h2>
+    <p>
+      This website is designed to help young people learn how to 
+      <b>save, invest, and grow wealth early</b>.
+      The earlier you start, the more powerful compounding becomes.
+    </p>
+
+    <!-- SERVICES LIST -->
+    <h2>Our Services</h2>
+    <ul>
+      <li>Simple Saving Strategies</li>
+      <li>Beginner Investment Guides</li>
+      <li>Budgeting Tools</li>
+      <li>1-on-1 Financial Advice</li>
+      <li>Book & Video Recommendations</li>
+    </ul>
+
+    <!-- IMAGES -->
+    <h2>Visual Guides</h2>
+    <div class="image-row">
+      <img src="test.jpg" alt="Saving Tips">
+      <img src="investagewise.jpg" alt="Invest at a Young Age">
+      <img src="Atomichabits.jpg" alt="Atomic Habits Book">
+    </div>
+
+    <!-- VIDEO -->
+    <h2>Watch & Learn</h2>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/-C_5hzJCHaY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </main>
+
+  <!-- SECTION FOR FEATURES -->
+  <section>
+    <h2>Recommended Resources</h2>
+    <table>
+      <caption>Financial Resources & Services</caption>
+      <tr>
+        <th>Service</th>
+        <th>Price</th>
+        <th>Rating</th>
+      </tr>
+      <tr>
+        <td>Budgeting Guide (E-Book)</td>
+        <td>$5</td>
+        <td>★★★★☆</td>
+      </tr>
+      <tr>
+        <td>1-on-1 Saving Tips Session</td>
+        <td>$20</td>
+        <td>★★★★★</td>
+      </tr>
+      <tr>
+        <td>Beginner Investment Toolkit</td>
+        <td>$15</td>
+        <td>★★★★☆</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Contact us: younginvestor@finance.com | +254-700-000-000</p>
+    <p>&copy; 2025 Young Investor Advice. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
