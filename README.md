@@ -187,14 +187,18 @@
   <!-- IMAGES -->
 <h2>Visual Guides</h2>
 <div class="image-row">
-  <img src="https://github.com/user-attachments/assets/07695a73-d847-4784-8ddf-01247b7eaf2d" 
-       alt="Saving Tips" width="540" height="540">
+  <img src="<img width="736" height="1104" alt="image" src="https://github.com/user-attachments/assets/61adbab4-c796-47ca-898b-f11632aead2a" />
+" />
+" 
+       alt="Where it begins">
        
-  <img src="https://github.com/user-attachments/assets/6bd87e3f-ea82-4a7b-8ec3-98a7b5395608" 
-       alt="Invest at a Young Age" width="735" height="1700">
+  <img src="<img width="1080" height="1920" alt="image" src="https://github.com/user-attachments/assets/3f932f6d-e56f-4fa1-83d0-b22390c032ae" />
+" 
+       alt="Invest at a Young Age">
        
-  <img src="https://github.com/user-attachments/assets/9d605f05-546c-476b-9248-bd955a6f962e" 
-       alt="Atomic Habits Book" width="1280" height="720">
+  <img src="<img width="1080" height="1346" alt="image" src="https://github.com/user-attachments/assets/7cd0278f-d751-4586-85a6-3305471d2d57" />
+" 
+       alt="What do you want your future to have">
 </div>
 
  
