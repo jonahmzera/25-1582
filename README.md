@@ -76,20 +76,22 @@
       margin: 20px auto;
       font-size: 18px;
     }
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
 
-   .image-row {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin: 20px 0;
-    }
+.image-row img {
+  width: 280px;      /* same width for all */
+  height: 280px;     /* same height for all */
+  object-fit: cover; /* crop neatly without stretching */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
 
-  .image-row img {
-      width: 250px;
-      border-radius: 8px;
-      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-    }
-
+   
   iframe {
       margin: 20px 0;
       border-radius: 8px;
