@@ -187,9 +187,12 @@
     <!-- IMAGES -->
     <h2>Visual Guides</h2>
     <div class="image-row">
-      <img src="https://share.google/images/7HzTjsEbCLOwaNlSg" alt="Saving Tips">
-      <img src="https://pin.it/2WLXvqwaS" alt="Invest at a Young Age"> <br><br>
-      <img src="https://pin.it/7DU3DzKyZ" alt="Atomic Habits Book">
+      <img src="<img width="540" height="540" alt="image" src="https://github.com/user-attachments/assets/07695a73-d847-4784-8ddf-01247b7eaf2d" />
+" alt="Saving Tips">
+      <img src="<img width="735" height="1700" alt="image" src="https://github.com/user-attachments/assets/6bd87e3f-ea82-4a7b-8ec3-98a7b5395608" />
+" alt="Invest at a Young Age"> <br><br>
+      <img src="<img width="329" height="153" alt="image" src="https://github.com/user-attachments/assets/9d605f05-546c-476b-9248-bd955a6f962e" />
+" alt="Atomic Habits Book">
     </div>
 
     <!-- VIDEO -->
