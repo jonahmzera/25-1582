@@ -1,5 +1,5 @@
 
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,14 +14,14 @@
       padding: 0;
     }
 
-   .site-header {
+  site-header {
       background-color: #003366; /* Darker blue */
       color: white;
       padding: 25px 0;
       text-align: center;
     }
 
-   .site-header h1 {
+  site-header h1 {
       margin: 0;
       font-size: 2.5rem;
       font weight: bold;
@@ -29,22 +29,22 @@
       text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     }
 
-   .site-header p {
+  site-header p {
       margin: 5px 0 0;
       font-size: 1rem;
       font-style: italic;
       color: #f0f0f0;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
 
-   nav {
+  nav {
       background-color: #004080;
       display: flex;
       justify-content: center;
       padding: 12px 0;
     }
 
-   nav a {
+  nav a {
       margin: 0 18px;
       color: white;
       text-decoration: none;
@@ -69,36 +69,34 @@
       line-height: 1.5;
     }
 
-   ul {
+  ul {
       list-style-type: square;
       text-align: left;
       display: inline-block;
       margin: 20px auto;
       font-size: 18px;
     }
-.image-row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 20px 0;
-}
 
-.image-row img {
-  width: 280px;      /* same width for all */
-  height: 280px;     /* same height for all */
-  object-fit: cover; /* crop neatly without stretching */
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-}
+  image-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
 
-   
+  image-row img {
+      width: 250px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
   iframe {
       margin: 20px 0;
       border-radius: 8px;
       box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
     }
 
-   section {
+  section {
       background-color: #eef6ff;
       padding: 30px;
       text-align: center;
@@ -114,22 +112,22 @@
       box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     }
 
-   th {
+  th {
       background-color: #004080;
       color: white;
       padding: 12px;
     }
 
-   td {
+  td {
       border: 1px solid #ccc;
       padding: 10px;
     }
 
-   tr:nth-child(even) {
+  tr:nth-child(even) {
       background-color: #e6f2ff;
     }
 
-   tr:nth-child(odd) {
+  tr:nth-child(odd) {
       background-color: #ffffff;
     }
 
@@ -157,7 +155,6 @@
     <h1>Young Investor Advice</h1>
     <p>Helping You Save, Invest & Grow Wealth Early</p>
   </header>
-
   <!-- NAVIGATION -->
   <nav>
     <a href="#">Home</a>
@@ -166,8 +163,7 @@
     <a href="https://github.com/yourusername" target="_blank">GitHub</a>
     <a href="#">Contact</a>
   </nav>
-
-  <!-- MAIN CONTENT -->
+ <!-- MAIN CONTENT -->
   <main>
     <h2>Welcome</h2>
     <p>
@@ -175,9 +171,8 @@
       <b>save, invest, and grow wealth early</b>.
       The earlier you start, the more powerful compounding becomes.
     </p>
-
-     <!-- SERVICES LIST -->
- <h2>Our Services</h2>
+<!-- SERVICES LIST -->
+    <h2>Our Services</h2>
     <ul>
       <li>Simple Saving Strategies</li>
       <li>Beginner Investment Guides</li>
@@ -186,21 +181,19 @@
       <li>Book & Video Recommendations</li>
     </ul>
 
-  <!-- IMAGES -->
-<h2>Visual Guides</h2>
-<div class="image-row">
-  <img src="https://github.com/user-attachments/assets/61adbab4-c796-47ca-898b-f11632aead2a" 
-       alt="Where it begins">
-
-  <img src="https://github.com/user-attachments/assets/3f932f6d-e56f-4fa1-83d0-b22390c032ae" 
-       alt="Invest at a Young Age">
-
-  <img src="https://github.com/user-attachments/assets/7cd0278f-d751-4586-85a6-3305471d2d57" 
-       alt="What do you want your future to have">
-</div>
-
-<!-- VIDEO -->
-<h2>Watch & Learn</h2>
+    <!-- IMAGES -->
+  <h2>Visual Guides</h2>
+    <div class="image-row">
+      <img src="<img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/ed3aa95b-96f5-43d1-ba17-133af3fc68bd" />
+" alt="Saving Tips">
+      <img src="<img width="1200" height="1581" alt="image" src="https://github.com/user-attachments/assets/4d574021-1b4d-4789-8928-9bf08609a185" />
+" alt="Invest at a Young Age">
+      <img src="<img width="736" height="1308" alt="image" src="https://github.com/user-attachments/assets/b6817d4f-29fd-4302-b885-5383957da066" />
+" alt="Atomic Habits Book">
+    </div>
+    
+    <!-- VIDEO -->
+   <h2>Watch & Learn</h2>
     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/-C_5hzJCHaY"
       title="YouTube video player"
@@ -246,3 +239,4 @@
 
 </body>
 </html>
+
