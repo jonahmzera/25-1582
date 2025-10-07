@@ -86,18 +86,26 @@
    }
 
    image-row img {
-     width: 320px;
-     height: 320px;
-     object-fit: cover;
-     border-radius: 15px;
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-     transition: transform 0.3s ease, box-shadow 0.3s ease;
+      width: 320px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
    }
 
    image-row img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
    }
+    image-row img {
+      width: 300px;
+      height: 250px; /* Force all images to be the same height */
+      object-fit: cover; /* Crops instead of stretching */
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
 
 
     iframe {
@@ -250,4 +258,5 @@
 
 </body>
 </html>
+
 
