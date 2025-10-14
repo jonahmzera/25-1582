@@ -76,7 +76,6 @@
       font-size: 18px;
     }
 
-    /* ✅ FIXED IMAGE ROW SECTION */
     .image-row {
       display: flex;
       justify-content: center;
@@ -156,17 +155,45 @@
       padding: 15px;
       margin-top: 30px;
     }
+      .colorful-table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.colorful-table td {
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.colorful-table tr td:nth-child(1) { background-color: #e74c3c; } 
+.colorful-table tr td:nth-child(2) { background-color: #f39c12; } 
+.colorful-table tr td:nth-child(3) { background-color: #27ae60; } 
+.colorful-table tr td:nth-child(4) { background-color: #2980b9; } 
+.colorful-table tr td:nth-child(5) { background-color: #8e44ad; } 
+
+.colorful-table caption {
+  caption-side: top;
+  font-size: 18px;
+  font-weight: bold;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+
   </style>
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <h1>Young Investor Advice</h1>
     <p>Helping You Save, Invest & Grow Wealth Early</p>
   </header>
 
-  <!-- NAVIGATION -->
   <nav>
     <a href="#">Home</a>
     <a href="#">About</a>
@@ -175,7 +202,6 @@
     <a href="#">Contact</a>
   </nav>
 
-  <!-- MAIN CONTENT -->
   <main>
     <h2>Welcome</h2>
     <p>
@@ -184,7 +210,6 @@
       The earlier you start, the more powerful compounding becomes.
     </p>
 
-    <!-- SERVICES LIST -->
     <h2>Our Services</h2>
     <ul>
       <li>Simple Saving Strategies</li>
@@ -202,7 +227,6 @@
       <img src="https://i.pinimg.com/1200x/37/50/3f/37503f937d722eb9470c011750b149d0.jpg" alt="Invest in Yourself">
     </div>
 
-    <!-- VIDEO -->
     <h2>Watch & Learn</h2>
     <iframe width="560" height="315"
       src="https://www.youtube.com/embed/-C_5hzJCHaY"
@@ -213,7 +237,6 @@
     </iframe>
   </main>
 
-  <!-- SECTION FOR FEATURES -->
   <section>
     <h2>Recommended Resources</h2>
     <table>
@@ -240,8 +263,43 @@
       </tr>
     </table>
   </section>
+  
+<section>
+  <h2>Upcoming Financial Tools</h2>
 
-  <!-- FOOTER -->
+  <table class="colorful-table">
+    <caption>Table 1: Financial Growth Plans</caption>
+    <tr>
+      <td>Plan A</td><td>Plan B</td><td>Plan C</td><td>Plan D</td><td>Plan E</td>
+    </tr>
+    <tr>
+      <td>Investment</td><td>Saving</td><td>Budgeting</td><td>Loans</td><td>Insurance</td>
+    </tr>
+    <tr>
+      <td>Stocks</td><td>Emergency Fund</td><td>Expenses</td><td>Interest</td><td>Security</td>
+    </tr>
+    <tr>
+      <td>Wealth</td><td>Discipline</td><td>Tracking</td><td>Credit</td><td>Future Goals</td>
+    </tr>
+  </table>
+
+  <table class="colorful-table">
+    <caption>Table 2: Upcoming Services</caption>
+    <tr>
+      <td>Finance Tracking App</td><td>One-on-One Guide</td><td>Community Forum</td><td>Mentorship</td><td>Workshops</td>
+    </tr>
+    <tr>
+      <td>Beta Testing</td><td>Course Outline</td><td>Member Access</td><td>Live Calls</td><td>Q&A Events</td>
+    </tr>
+    <tr>
+      <td>App Update</td><td>Consultation</td><td>Resources</td><td>Investing Tips</td><td>Networking</td>
+    </tr>
+    <tr>
+      <td>Coming Soon</td><td>Coming Soon</td><td>Coming Soon</td><td>Coming Soon</td><td>Coming Soon</td>
+    </tr>
+  </table>
+</section>
+
   <footer>
     <p>Contact us: younginvestor@finance.com | +254-700-000-000</p>
     <p>&copy; 2025 Young Investor Advice. All rights reserved.</p>
@@ -249,4 +307,3 @@
 
 </body>
 </html>
-
