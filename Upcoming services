@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Tools - Young Investor Advice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f9ff;
+      color: #333;
+      margin: 0;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    nav {
+      background: #004080;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      text-align: center;
+      padding: 30px;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Upcoming Financial Tools</h1>
+    <p>Exciting new tools to help you grow your money smarter!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">About</a>
+    <a href="upcoming.html">Upcoming Tools</a>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Upcoming Services</h2>
+    <p>Check out some of the tools and services we’re building for you.</p>
+
+    <!-- Simple Colorful Table 1 -->
+    <table style="width:80%; margin:20px auto; border-collapse:collapse; text-align:center; color:white;">
+      <caption style="caption-side:top; font-size:18px; color:#004080; font-weight:bold; margin:10px;">Financial Growth Plans</caption>
+      <tr>
+        <td style="background:red; padding:12px;">Plan A</td>
+        <td style="background:orange; padding:12px;">Plan B</td>
+        <td style="background:green; padding:12px;">Plan C</td>
+        <td style="background:blue; padding:12px;">Plan D</td>
+      </tr>
+      <tr>
+        <td style="background:red; padding:12px;">Investment</td>
+        <td style="background:orange; padding:12px;">Saving</td>
+        <td style="background:green; padding:12px;">Budgeting</td>
+        <td style="background:blue; padding:12px;">Loans</td>
+      </tr>
+    </table>
+
+    <!-- Simple Colorful Table 2 -->
+    <table style="width:80%; margin:20px auto; border-collapse:collapse; text-align:center; color:white;">
+      <caption style="caption-side:top; font-size:18px; color:#004080; font-weight:bold; margin:10px;">Upcoming Services</caption>
+      <tr>
+        <td style="background:red; padding:12px;">Finance App</td>
+        <td style="background:orange; padding:12px;">1-on-1 Guide</td>
+        <td style="background:green; padding:12px;">Community</td>
+        <td style="background:blue; padding:12px;">Workshops</td>
+      </tr>
+      <tr>
+        <td style="background:red; padding:12px;">Testing</td>
+        <td style="background:orange; padding:12px;">Courses</td>
+        <td style="background:green; padding:12px;">Resources</td>
+        <td style="background:blue; padding:12px;">Mentorship</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>Contact us: younginvestor@finance.com | +254-700-000-000</p>
+    <p>&copy; 2025 Young Investor Advice. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
