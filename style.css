@@ -1,0 +1,41 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0b6ef6;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse; 
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #0b6ef6;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #eaf2ff;
+    }
+
+    .status {
+      font-weight: bold;
+    }
+
+    .upcoming { color: #f39c12; }
+    .live { color: #27ae60; }   
+    .beta { color: #2980b9; } 
+    .delayed { color: #e74c3c; } 
+  </style>
